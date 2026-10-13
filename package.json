@@ -1,0 +1,8 @@
+{
+  "name": "xuqingxinnocent-self-hosted-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter API for self-hosting Xuqingxinnocent extension update metadata",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}

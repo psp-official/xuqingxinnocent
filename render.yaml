@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: xuqingxinnocent-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: EXTENSION_VERSION
+        value: 6.1.0
+      - key: ADMIN_TOKEN
+        generateValue: true
